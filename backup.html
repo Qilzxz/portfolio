@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Your Name</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-logo">YN<span class="blink">_</span></div>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-status">
+      <span class="status-dot"></span>Available for hire
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-eyebrow">
+      <span class="line"></span>
+      <span>Full-Stack Developer &amp; Designer</span>
+    </div>
+    <h1 class="hero-title">
+      <span class="reveal-line">Crafting digital</span>
+      <span class="reveal-line italic">experiences</span>
+      <span class="reveal-line">that <em>matter.</em></span>
+    </h1>
+    <div class="hero-scroll">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="work" id="work">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2>Selected Work</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card" data-index="01">
+        <div class="project-img-wrap" onclick="window.location.href = 'https://lumiereweb.netlify.app/#products'">
+          <div class="project-img" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
+            <div class="project-placeholder-art art-1"></div>
+          </div>
+          <div class="project-hover">
+            <span>View Project →</span>
+          </div>
+        </div>
+        <div class="project-meta">
+          <span class="project-tag">Web App</span>
+          <span class="project-year">2024</span>
+        </div>
+        <h3 class="project-title">Lumiere Skincare Website</h3>
+        <p class="project-desc">Real-time analytics platform serving 50k+ users with live data visualizations and predictive insights.</p>
+        <div class="project-stack">Pure HTML · CSS · Javascript || No backend implemented</div>
+      </article>
+
+      <article class="project-card featured" data-index="02">
+        <div class="project-img-wrap">
+          <div class="project-img" style="background: linear-gradient(135deg, #2d1b69 0%, #11998e 100%);">
+            <div class="project-placeholder-art art-2"></div>
+          </div>
+          <div class="project-hover">
+            <span>View Project →</span>
+          </div>
+        </div>
+        <div class="project-meta">
+          <span class="project-tag">E-Commerce</span>
+          <span class="project-year">2024</span>
+        </div>
+        <h3 class="project-title">Maison Collective</h3>
+        <p class="project-desc">Luxury e-commerce experience with immersive product storytelling and custom checkout flow.</p>
+        <div class="project-stack">Next.js · Shopify · GSAP · Prisma</div>
+      </article>
+
+      <article class="project-card" data-index="03">
+        <div class="project-img-wrap">
+          <div class="project-img" style="background: linear-gradient(135deg, #3a1c71 0%, #d76d77 50%, #ffaf7b 100%);">
+            <div class="project-placeholder-art art-3"></div>
+          </div>
+          <div class="project-hover">
+            <span>View Project →</span>
+          </div>
+        </div>
+        <div class="project-meta">
+          <span class="project-tag">Mobile · API</span>
+          <span class="project-year">2023</span>
+        </div>
+        <h3 class="project-title">Orbit Finance</h3>
+        <p class="project-desc">Personal finance app with AI-powered spending analysis and automated savings goals.</p>
+        <div class="project-stack">React Native · Python · FastAPI · ML</div>
+      </article>
+
+      <article class="project-card" data-index="04">
+        <div class="project-img-wrap">
+          <div class="project-img" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
+            <div class="project-placeholder-art art-4"></div>
+          </div>
+          <div class="project-hover">
+            <span>View Project →</span>
+          </div>
+        </div>
+        <div class="project-meta">
+          <span class="project-tag">SaaS · Design System</span>
+          <span class="project-year">2023</span>
+        </div>
+        <h3 class="project-title">Forge Design System</h3>
+        <p class="project-desc">Scalable component library and design tokens used across 12 product teams and 3 brands.</p>
+        <div class="project-stack">Storybook · Figma · Tokens · CSS</div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="about-lead">I'm a full-stack developer with 6 years building products people love — from seed-stage startups to enterprise teams.</p>
+        <p>My work lives at the intersection of engineering precision and design sensibility. I care deeply about performance, accessibility, and the small details that make an experience feel <em>right</em>.</p>
+        <p>When I'm not building, I'm writing about design systems, speaking at meetups, or photographing empty streets at dawn.</p>
+        <a href="#contact" class="about-cta">Let's work together →</a>
+      </div>
+      <div class="about-skills">
+        <div class="skills-col">
+          <h4>Engineering</h4>
+          <ul>
+            <li>React / Next.js</li>
+            <li>TypeScript</li>
+            <li>Node.js / Python</li>
+            <li>PostgreSQL · Redis</li>
+            <li>AWS · Docker</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <h4>Design</h4>
+          <ul>
+            <li>Figma · Sketch</li>
+            <li>Motion Design</li>
+            <li>Design Systems</li>
+            <li>User Research</li>
+            <li>Brand Identity</li>
+          </ul>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">6+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">40+</span>
+            <span class="stat-label">Projects Shipped</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">12</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-content">
+      <h3 class="contact-headline">Have a project in mind?<br /><em>Let's talk.</em></h3>
+      <div class="contact-links">
+        <a href="/cdn-cgi/l/email-protection#91f9f4fdfdfed1e8fee4e3fff0fcf4bff2fefc" class="contact-link">
+          <span class="contact-link-label">Email</span>
+          <span class="contact-link-value"><span class="__cf_email__" data-cfemail="c3aba6afafac83baacb6b1ada2aea6eda0acae">[email&#160;protected]</span> →</span>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="contact-link">
+          <span class="contact-link-label">LinkedIn</span>
+          <span class="contact-link-value">@yourname →</span>
+        </a>
+        <a href="https://github.com" target="_blank" class="contact-link">
+          <span class="contact-link-label">GitHub</span>
+          <span class="contact-link-value">@yourname →</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span class="contact-link-label">Resume</span>
+          <span class="contact-link-value">Download PDF →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>© 2024 Your Name</span>
+    <span>Designed &amp; built with ca
